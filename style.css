@@ -373,3 +373,22 @@ ul {
 .fw {
   text-decoration: none;
 }
+@media only screen and (max-width: 600px) {
+  .navbar ul li {
+    background-color: #fff;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 5px;
+  }
+  .navbar ul li:hover {
+    background-color: rgb(243, 239, 11);
+  }
+  .col-sm-12 .card {
+    margin-bottom: 25px;
+  }
+  .mobile-latest img {
+    margin-left: 50px;
+  }
+}
+@media only screen and (min-width: 768px) {
+}
