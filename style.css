@@ -377,7 +377,7 @@ ul {
   .navbar ul li {
     background-color: #fff;
     margin-bottom: 5px;
-    margin-right: 5px;
+    margin-right: 0px;
     padding: 5px;
   }
   .navbar ul li:hover {
@@ -386,9 +386,25 @@ ul {
   .col-sm-12 .card {
     margin-bottom: 25px;
   }
-  .mobile-latest img {
-    margin-left: 50px;
+  .card-1 img {
+    width: 100%;
   }
-}
-@media only screen and (min-width: 768px) {
+  .i1 {
+    padding: 0.4rem;
+    margin-top: 18px;
+  }
+  .btn-1 {
+    margin-top: 0.5rem;
+    width: 5rem;
+  }
+  .navbar-collapse {
+    margin-right: 70px;
+  }
+  .search {
+    height: 2.5rem;
+    width: 8rem;
+  }
+  .fa-2x {
+    font-size: 1.5rem !important;
+  }
 }
